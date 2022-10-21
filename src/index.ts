@@ -45,7 +45,9 @@ class WhatsAppCloudApi implements IWhatsAppCloudApi {
         };
     }
 
-    async sendImageMessage() {}
+    async sendImageMessage() {
+        return 'test';
+    }
     async sendTemplateMessage(
         to: string,
         language: string,
